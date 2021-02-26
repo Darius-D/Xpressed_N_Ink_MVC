@@ -1,0 +1,21 @@
+﻿
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,59 @@
+﻿
+@model Xpressed_N_Ink.Models.SignUpForm
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/SignUpStyle.css">
+    <meta name="description" content="Sign up page for Xpressed-N-Ink">
+    <title>Xpressed-N-ink|Sign-up</title>
+</head>
+<body>
+<header class="main-header">
+    <div class="navigation">
+        <h1>
+            <span id="page-title">X</span>pressed-<span id="N">N</span>-<span id="I">I</span>nk
+        </h1>
+        <nav class="navbar">
+            <div class="container-1">
+                <ul class="navbar-list">
+                    <li id="one"><a href="index.html">Home</a></li>
+                    <li id="two"><a href="index.html">About</a></li>
+                    <li id="four"><a href="index.html">Account</a></li>
+                    <li id="three"><a href="index.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="container2">
+                <form asp-action="SignUp" method="post" class="form-1">
+                    <h2>Sign up</h2>
+                    <label asp-for="FirstName">First Name</label><br>
+                    <input asp-for="FirstName" placeholder="First Name will be private"required="required"><br>
+                    <label asp-for="LastName">Last Name</label><br>
+                    <input asp-for="LastName" placeholder="Last Name will be private"required="required"><br>
+                    <label asp-for="Alias">Alias</label><br>
+                    <input asp-for="Alias" placeholder="This will be displayed"required="required"><br>
+                    <label asp-for="Email">Email Address</label><br>
+                    <input asp-for="Email" placeholder="Email Address"required="required"><br>
+                    <label asp-for="Password">Password</label><br>
+                    <input asp-for="Password" type="password" placeholder="please enter password"required="required"><br>
+                    <input asp-for="Password" type="password" placeholder="Please re-enter password" required="required"><br>
+                    <input type="submit"><br>
+                </form>
+            </div>
+        </nav>
+    </div>
+</header>
+<footer class="footer">
+    <p>This is a Beta Build of my sign up page for my project</p>
+</footer>
+</body>
+</html>
