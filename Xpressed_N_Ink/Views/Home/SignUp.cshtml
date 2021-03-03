@@ -34,6 +34,7 @@
             </div>
             <div class="container2">
                 <form asp-action="SignUp" method="post" class="form-1">
+                    <div asp-validation-summary="All"></div>
                     <h2>Sign up</h2>
                     <label asp-for="FirstName">First Name</label><br>
                     <input asp-for="FirstName" placeholder="First Name will be private"required="required"><br>
