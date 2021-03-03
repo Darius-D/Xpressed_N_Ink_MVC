@@ -11,4 +11,4 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 ***
 ## Current Page Status
 ***
-![index Page]()
+![index Page](/images/Indexpage.JPG)
