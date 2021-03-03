@@ -40,8 +40,6 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 ***
 ### To Do TimeLine
 
-ISSUE TRACKER
-
 | Status | Job Discription | possible blocks | Self Declared Deadline | Issue Tracker number | Date completed|
 |:-------------|:------------------:|:----------: |:-----------:| --- | --- |
 | [] |  |  |  |  | |
