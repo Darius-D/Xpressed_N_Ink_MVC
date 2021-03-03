@@ -43,7 +43,7 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 |:-------------|:------------------:|:----------: |:-----------:| --- | --- |
 | [] | Create About Page | N/A | March 6 | N/A |TBD |
 | [] | Create Contact us Page | N/A | March 6 | N/A |TBD |
-| [:heavy_check_mark:] | Remove Account Link from Sign up Page | N/A | March 3 | N/A | March 3, 21 |
+| :heavy_check_mark: | Remove Account Link from Sign up Page | N/A | March 3 | N/A | March 3, 21 |
 | [] |  |  |  |  | |
 | [] |  |  |  |  | |
 | [] |  |  |  |  | |
