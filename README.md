@@ -15,4 +15,4 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 ![index Page](/images/Indexpage.JPG)
 
 ### <p align="center"> Sign-up Page </P>
-![index Page](/images/SignIn page .JPG)
+![sign up Page](/images/SignInpage.JPG)
