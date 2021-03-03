@@ -82,12 +82,15 @@ main {
 .information {
     display: flex;
     padding: 20px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1;
     margin: 20px 0px;
 }
-
+.information :nth-child(1) {
+    margin-bottom: 10px;
+}
 .login {
     top: 100px;
     background: rgba(0, 0, 0, 0.486);
