@@ -31,7 +31,14 @@ namespace Xpressed_N_Ink.Controllers
         [HttpPost]
         public IActionResult SignUp(SignUpForm applicant)
         {
-            return View("GetStarted",applicant);
+            if (ModelState.IsValid)
+            {
+                return View("GetStarted", applicant);
+            }
+            else
+            {
+                return View();
+            }
         }
         public IActionResult Privacy()
         {
