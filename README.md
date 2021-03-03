@@ -5,7 +5,7 @@
 Originator Darius Dubose 
 Project: Xpressed - N - Ink
 
-About the project
+<p align="center">  About the project </p>
 
 Xpressed-N-Ink is a personal project that is intended to allow users to submit their own creative works by annonymous means. These creative works can be short stories, poetry, experiances and much more. The main idea behind this project was to encourage others to express their feelings while having the option to be annonymous. I believe this can help with the present suicide statistics.
 ***
@@ -18,7 +18,7 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 ![sign up Page](/images/newSigninpage.JPG)
 
 ***
-### ISSUE TRACKER
+### <p align="center">  ISSUE TRACKER </p>
 
 | Status | Issue Discription | Possible Solutions | Solution performed | Date discovered | Date Solved|
 |:-------------|:------------------:|:----------: |:-----------:| --- | --- |
@@ -38,7 +38,7 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 | [] |  |  |  |  | |
 
 ***
-### To Do TimeLine
+### <p align="center">  To Do TimeLine </p>
 
 | Status | Job Discription | possible blocks | Self Declared Deadline | Issue Tracker number | Date completed|
 |:-------------|:------------------:|:----------: |:-----------:| --- | --- |
