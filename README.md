@@ -17,7 +17,7 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 ![sign up Page](/images/newSigninpage.JPG)
 
 ***
-#### <p align="center">  ISSUE TRACKER </p>
+#### <p align="center">  Issue/Bug/correction Tracker </p>
 
 | Status | Issue Discription | Possible Solutions | Solution performed | Date discovered | Date Solved|
 |:-------------|:------------------:|:----------: |:-----------:| --- | --- |
