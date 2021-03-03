@@ -12,7 +12,7 @@ Xpressed-N-Ink is a personal project that is intended to allow users to submit t
 ## <p align="center" > Current Page Status </p>
 ***
 ### <p align="center"> Home Page </P>
-![index Page](/images/Indexpage.JPG)
+![index Page](/images)
 
 ### <p align="center"> Sign-up Page </P>
 ![sign up Page](/images/SignInpage.JPG)
