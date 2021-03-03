@@ -12,6 +12,8 @@ body {
     font-family: 'Patua One', cursive;
     background: url(bilal-o-UOltHXPAoyA-unsplash.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 span {

@@ -1,0 +1,147 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Patua One",sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(croppedPic.jpg) center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 1600px;
+    display: flex;
+}
+
+.leftSide {
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background: rgba(0, 0, 0, 0.733);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.section1 {
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: upright;
+    margin-left: 40px;
+    font-size: 60px;
+}
+
+    .section1 h2 {
+        background: -webkit-linear-gradient(rgba(247, 0, 0, 0.849), rgb(5, 51, 136));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.section3 h2 {
+    background: -webkit-linear-gradient( rgb(5, 51, 136),rgba(247, 0, 0, 0.849));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section2 span {
+    color: rgb(20, 95, 156);
+}
+
+.section2 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 60px;
+}
+
+.section3 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-right: 40px;
+    font-size: 65px;
+}
+
+.rightSide {
+    color: white;
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.information {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 20px 0px;
+}
+
+.login {
+    top: 100px;
+    background: rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    min-width: 80%;
+    min-height: 40%;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top {
+    flex: 1.5;
+    margin-top: 20px;
+    font-size: 32px;
+    border-image: linear-gradient(45deg, rgb(236, 221, 4), rgb(228, 10, 173)) 1;
+    border-bottom-style: inset;
+}
+
+.bottom {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+    .bottom a {
+        color: white;
+        text-decoration: none;
+    }
+    .bottom input {
+        border-radius: 8px;
+        width: 300px;
+        height: 30px;
+        margin: 5px;
+        text-align: center;
+        padding: 3px;
+        background: linear-gradient(45deg, rgba(236, 220, 4, 0.747), rgba(228, 10, 173, 0.76));
+    }
+
+    .bottom label {
+        font-size: 26px;
+    }
+
+    .bottom ::placeholder {
+        color: black;
+    }
